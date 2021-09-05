@@ -1,1 +1,1 @@
-web: gunicorn lease_site.wsgi
+web: gunicorn mysite.wsgi
