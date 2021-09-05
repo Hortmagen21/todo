@@ -1,0 +1,1 @@
+web: gunicorn lease_site.wsgi
