@@ -145,10 +145,12 @@ STATICFILES_DIRS = (
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 CORS_ALLOWED_ORIGINS = [
+    "http://*",
     "http://localhost:3000",
     "http://localhost:8000",
     "http://localhost:8080",
     "http://127.0.0.1:9000",
+
 ]
 
 
