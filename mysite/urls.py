@@ -18,5 +18,5 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     url(r'main/', include('main.urls')),
-    url('', TemplateView.as_view(template_name='index.html')),
+    url('', TemplateView.as_view(template_name='frontend/build/index.html')),
 ]
